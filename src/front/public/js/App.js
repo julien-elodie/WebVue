@@ -1,9 +1,17 @@
-import test from "../../components/component.vue";
+import publicheader from "../../components/header.vue";
+import test from "../../components/component";
 export default {
   name: "app",
   data() {
     return {
-      msg: "Welcome to Your Vue.js App",
+      menu: {
+        l1: "首页",
+        l2: "产品方案",
+        l3: "资讯动态",
+        r1: "关于我们",
+        r2: "加入我们",
+        r3: "病理在线",
+      },
       items: [{
         tag: "1"
       }, {
@@ -21,6 +29,7 @@ export default {
     }];
   },
   components: {
+    publicheader,
     test
   }
 };

@@ -1,4 +1,4 @@
-import main from '../../../front/App.vue';
+import main from '../../../front/pages/App.vue';
 
 export default {
   path: '/',
